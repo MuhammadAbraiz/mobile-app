@@ -5,7 +5,9 @@
   --pink: #f83292;
   --gradient: linear-gradient(90deg, var(--purple), var(--pink));
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
